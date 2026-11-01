@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="사진 없음">
+  <rect width="400" height="300" fill="#FBEBD5"/>
+  <!-- 산형 식빵 -->
+  <g transform="translate(200 160)">
+    <path d="M-92 52 V-6 C-92 -40 -70 -58 -46 -58 C-34 -58 -24 -52 -16 -44 C-8 -60 8 -64 20 -58 C30 -66 46 -64 56 -54 C66 -62 92 -48 92 -14 V52 Z"
+          fill="#D9A066" stroke="#8B5A2B" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M-92 52 H92" stroke="#8B5A2B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-46 -30 C-40 -36 -32 -38 -26 -36 M2 -36 C8 -42 16 -43 22 -40 M40 -30 C46 -35 54 -36 60 -32"
+          fill="none" stroke="#FFF8EC" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="200" y="262" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#8B5A2B">사진 준비 중</text>
+</svg>

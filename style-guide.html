@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>반죽일기 스타일 견본</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* 이 견본 페이지에서만 쓰는 스타일 */
+    .guide-section { margin-top: var(--space-6); }
+    .guide-section > h2 { margin-bottom: var(--space-3); font-size: var(--font-lg); color: var(--color-primary); }
+    .swatches { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-2); }
+    .swatch { display: flex; align-items: center; gap: var(--space-2); font-size: var(--font-xs); }
+    .swatch span { width: 36px; height: 36px; border-radius: var(--radius-sm); border: 1px solid var(--color-border); flex-shrink: 0; }
+    .badges { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+    .timer-sample { font-size: var(--font-timer); font-weight: 800; font-variant-numeric: tabular-nums; text-align: center; line-height: 1.1; color: var(--color-primary-dark); }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1 class="app-title">반죽일기 스타일 견본</h1>
+      <p class="text-muted">개발용 페이지예요. 앱에는 연결되지 않아요.</p>
+    </header>
+
+    <main class="app-main" style="padding-bottom: var(--space-6);">
+      <section class="guide-section">
+        <h2>색</h2>
+        <div class="swatches">
+          <div class="swatch"><span style="background: var(--color-bg)"></span>배경 (크림)</div>
+          <div class="swatch"><span style="background: var(--color-surface)"></span>카드</div>
+          <div class="swatch"><span style="background: var(--color-primary)"></span>포인트 (갈색)</div>
+          <div class="swatch"><span style="background: var(--color-primary-dark)"></span>진한 갈색</div>
+          <div class="swatch"><span style="background: var(--color-primary-soft)"></span>옅은 갈색</div>
+          <div class="swatch"><span style="background: var(--color-accent)"></span>강조 (황금)</div>
+          <div class="swatch"><span style="background: var(--color-text)"></span>글자</div>
+          <div class="swatch"><span style="background: var(--color-danger)"></span>위험·초과</div>
+        </div>
+      </section>
+
+      <section class="guide-section">
+        <h2>글자</h2>
+        <div class="card stack">
+          <p style="margin:0; font-size: var(--font-2xl); font-weight: 800;">단팥빵 30px</p>
+          <p style="margin:0; font-size: var(--font-xl); font-weight: 700;">화면 제목 24px</p>
+          <p style="margin:0; font-size: var(--font-lg); font-weight: 700;">카드 제목 20px</p>
+          <p style="margin:0;">본문 17px · 반죽을 매끄럽게 치대요.</p>
+          <p style="margin:0; font-size: var(--font-sm);">작은 글자 15px</p>
+          <p style="margin:0; font-size: var(--font-xs);" class="text-muted">안내 문구 13px</p>
+          <div class="timer-sample">42:15</div>
+        </div>
+      </section>
+
+      <section class="guide-section">
+        <h2>버튼</h2>
+        <div class="stack">
+          <button class="btn btn-primary btn-block btn-lg">연습 시작</button>
+          <button class="btn btn-primary btn-block btn-lg btn-highlight">연습 시작 (계량 완료 강조)</button>
+          <div class="btn-group">
+            <button class="btn btn-secondary">취소</button>
+            <button class="btn btn-primary">저장</button>
+          </div>
+          <button class="btn btn-outline btn-block">+ 품목 추가</button>
+          <div class="btn-group">
+            <button class="btn btn-danger">삭제</button>
+            <button class="btn btn-primary" disabled>저장 (비활성)</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide-section">
+        <h2>배지</h2>
+        <div class="badges">
+          <span class="badge badge-exam">실기</span>
+          <span class="badge badge-mine">내 품목</span>
+          <span class="badge badge-count">연습 3회</span>
+          <span class="badge badge-danger">시간 초과</span>
+        </div>
+      </section>
+
+      <section class="guide-section">
+        <h2>카드</h2>
+        <a class="card card-link" href="#">
+          <div class="badges" style="margin-bottom: var(--space-2);">
+            <span class="badge badge-exam">실기</span>
+            <span class="badge badge-count">연습 3회</span>
+          </div>
+          <h3 class="card-title">품목 이름</h3>
+          <p class="card-text">제빵 · 시험 시간 3시간</p>
+        </a>
+        <div class="card">
+          <h3 class="card-title">주의할 점</h3>
+          <p class="card-text">누를 수 없는 일반 카드예요.</p>
+        </div>
+      </section>
+
+      <section class="guide-section">
+        <h2>입력창</h2>
+        <div class="card">
+          <label class="field">
+            <span class="field-label">밀가루 무게 (g)</span>
+            <input class="input" type="number" inputmode="numeric" value="1000">
+            <p class="field-hint">100~3,000g 사이로 입력해요.</p>
+          </label>
+          <label class="field is-invalid">
+            <span class="field-label">개수</span>
+            <input class="input" type="number" inputmode="numeric" value="150">
+            <p class="field-hint">1~100개 사이로 입력해 주세요.</p>
+          </label>
+          <label class="field">
+            <span class="field-label">종류</span>
+            <select class="select">
+              <option>제빵</option>
+              <option>제과</option>
+            </select>
+          </label>
+          <label class="field">
+            <span class="field-label">아쉬운 점</span>
+            <textarea class="textarea" placeholder="예: 2차 발효가 조금 부족했어요"></textarea>
+          </label>
+          <div class="field">
+            <span class="field-label">계량 체크</span>
+            <label class="checkbox"><input type="checkbox" checked> 강력분 1000g</label>
+            <label class="checkbox"><input type="checkbox"> 물 600g</label>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

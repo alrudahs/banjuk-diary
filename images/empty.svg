@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="빈 반죽 그릇">
+  <!-- 빈 화면 일러스트 (임시). 직접 그린 그림으로 바꿀 때는 같은 이름(images/empty.svg)으로 덮어쓰면 된다 -->
+  <ellipse cx="120" cy="160" rx="86" ry="10" fill="#E8DCCB"/>
+  <!-- 그릇 -->
+  <path d="M36 92 H204 C204 132 168 156 120 156 C72 156 36 132 36 92 Z" fill="#D9A066" stroke="#8B5A2B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M30 92 H210" stroke="#8B5A2B" stroke-width="5" stroke-linecap="round"/>
+  <!-- 반죽 -->
+  <path d="M66 92 C66 70 88 58 104 64 C110 50 134 48 144 62 C160 56 178 70 174 92 Z" fill="#FFF8EC" stroke="#8B5A2B" stroke-width="5" stroke-linejoin="round"/>
+  <!-- 얼굴 -->
+  <circle cx="106" cy="80" r="3.5" fill="#6B4220"/>
+  <circle cx="134" cy="80" r="3.5" fill="#6B4220"/>
+  <path d="M112 86 Q120 92 128 86" fill="none" stroke="#6B4220" stroke-width="3" stroke-linecap="round"/>
+  <!-- 밀대 -->
+  <g transform="rotate(-18 186 40)">
+    <rect x="150" y="32" width="72" height="16" rx="8" fill="#F3E6D6" stroke="#8B5A2B" stroke-width="4"/>
+    <rect x="138" y="36" width="14" height="8" rx="4" fill="#8B5A2B"/>
+    <rect x="220" y="36" width="14" height="8" rx="4" fill="#8B5A2B"/>
+  </g>
+  <!-- 밀가루 -->
+  <circle cx="52" cy="54" r="3" fill="#E8DCCB"/>
+  <circle cx="64" cy="40" r="2" fill="#E8DCCB"/>
+  <circle cx="44" cy="70" r="2" fill="#E8DCCB"/>
+</svg>

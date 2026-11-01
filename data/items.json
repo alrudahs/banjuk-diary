@@ -1,0 +1,700 @@
+[
+  {
+    "id": "bread-01",
+    "type": "실기",
+    "source": "기본",
+    "category": "제빵",
+    "name": "식빵(비상스트레이트법)",
+    "examMinutes": 160,
+    "method": "비상스트레이트법",
+    "thumbnail": "images/items/bread-01.jpg",
+    "photoCredit": {
+      "author": "dreamcat115",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:%E7%84%BC%E3%81%8D%E3%81%9F%E3%81%A6%E9%A3%9F%E3%83%91%E3%83%B3_(4910291976).jpg"
+    },
+    "video": null,
+    "requirements": [
+      "배합표의 재료를 계량해 재료별로 진열 (8분)",
+      "비상스트레이트법 공정으로 제조, 반죽 온도 30℃",
+      "표준 분할 무게 170g, 분할 무게 × 3을 식빵 1개로 함",
+      "반죽은 전량 사용해 성형"
+    ],
+    "notes": [
+      "비상법은 일반 스트레이트법보다 믹싱을 20~25% 더 길게 해요",
+      "1차 발효가 짧으니 반죽 온도 30℃를 꼭 맞춰요",
+      "이음매를 단단히 붙여야 굽는 중에 벌어지지 않아요"
+    ],
+    "criteria": [
+      "산형 3봉의 높이와 크기가 고르다",
+      "껍질 색이 고르고 옆면이 주저앉지 않았다",
+      "속결이 고르고 기공이 균일하다"
+    ],
+    "memo": "큐넷 공개문제를 바탕으로 정리한 값이에요. 공정 시간과 굽기 온도는 교재의 일반 기준이라, 학원 교재·오븐에 맞게 확인해 주세요.",
+    "baseFlourGram": 1200,
+    "basePieces": null,
+    "ingredientGroups": [
+      {
+        "name": "반죽",
+        "basis": "percent",
+        "ingredients": [
+          {
+            "name": "강력분",
+            "percent": 100
+          },
+          {
+            "name": "물",
+            "percent": 63
+          },
+          {
+            "name": "이스트",
+            "percent": 5
+          },
+          {
+            "name": "제빵개량제",
+            "percent": 2
+          },
+          {
+            "name": "설탕",
+            "percent": 5
+          },
+          {
+            "name": "쇼트닝",
+            "percent": 4
+          },
+          {
+            "name": "탈지분유",
+            "percent": 3
+          },
+          {
+            "name": "소금",
+            "percent": 1.8
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "name": "반죽",
+        "minutes": null,
+        "desc": "쇼트닝을 뺀 재료를 섞고, 클린업 단계에서 쇼트닝을 넣어 최종 단계 후기까지 믹싱해요",
+        "tip": "반죽 온도 30℃",
+        "parallel": ""
+      },
+      {
+        "name": "1차 발효",
+        "minutes": 30,
+        "desc": "온도 30℃, 습도 75~80%에서 15~30분",
+        "tip": "손가락으로 찔렀을 때 자국이 남으면 완료",
+        "parallel": ""
+      },
+      {
+        "name": "분할",
+        "minutes": null,
+        "desc": "170g씩 분할해요",
+        "tip": "빠르게 분할해 반죽 온도가 떨어지지 않게 해요",
+        "parallel": ""
+      },
+      {
+        "name": "둥글리기",
+        "minutes": null,
+        "desc": "표면이 매끄럽게 둥글려요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "중간 발효",
+        "minutes": 15,
+        "desc": "비닐을 덮어 10~15분",
+        "tip": "",
+        "parallel": "팬에 기름칠해 두기"
+      },
+      {
+        "name": "성형·팬닝",
+        "minutes": null,
+        "desc": "밀대로 밀어 3겹 접고 말아서, 팬 하나에 3개씩 넣어요",
+        "tip": "이음매가 아래로 가게 넣어요",
+        "parallel": ""
+      },
+      {
+        "name": "2차 발효",
+        "minutes": 40,
+        "desc": "온도 35~38℃, 습도 85~90%",
+        "tip": "반죽이 팬 높이보다 1cm 정도 올라오면 완료",
+        "parallel": ""
+      },
+      {
+        "name": "굽기",
+        "minutes": 30,
+        "desc": "윗불 170℃ / 아랫불 190℃ 전후에서 30~35분",
+        "tip": "아랫불이 윗불보다 높아야 옆면이 주저앉지 않아요",
+        "parallel": ""
+      }
+    ]
+  },
+  {
+    "id": "bread-02",
+    "type": "실기",
+    "source": "기본",
+    "category": "제빵",
+    "name": "단팥빵(비상스트레이트법)",
+    "examMinutes": 180,
+    "method": "비상스트레이트법",
+    "thumbnail": "images/items/bread-02.jpg",
+    "photoCredit": {
+      "author": "Hyeon-Jeong Suk",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Danpat-ppang.jpg"
+    },
+    "video": null,
+    "requirements": [
+      "배합표의 재료를 계량해 재료별로 진열 (9분)",
+      "비상스트레이트법 공정으로 제조, 반죽 온도 30℃",
+      "반죽 1개 분할 무게 50g, 팥앙금 40g",
+      "반죽은 전량 사용해 성형"
+    ],
+    "notes": [
+      "앙금이 가운데 오도록 싸고, 이음매를 단단히 오므려요",
+      "누를 때 너무 얇게 누르면 앙금이 터져요",
+      "2차 발효가 지나치면 모양이 퍼져요"
+    ],
+    "criteria": [
+      "크기와 모양이 고르다",
+      "앙금이 가운데에 있고 터지지 않았다",
+      "윗면 색이 고르고 광택이 있다"
+    ],
+    "memo": "큐넷 공개문제를 바탕으로 정리한 값이에요. 공정 시간과 굽기 온도는 교재의 일반 기준이라, 학원 교재·오븐에 맞게 확인해 주세요.",
+    "baseFlourGram": 900,
+    "basePieces": 36,
+    "ingredientGroups": [
+      {
+        "name": "반죽",
+        "basis": "percent",
+        "ingredients": [
+          {
+            "name": "강력분",
+            "percent": 100
+          },
+          {
+            "name": "물",
+            "percent": 48
+          },
+          {
+            "name": "이스트",
+            "percent": 7
+          },
+          {
+            "name": "제빵개량제",
+            "percent": 1
+          },
+          {
+            "name": "소금",
+            "percent": 2
+          },
+          {
+            "name": "설탕",
+            "percent": 16
+          },
+          {
+            "name": "마가린",
+            "percent": 12
+          },
+          {
+            "name": "탈지분유",
+            "percent": 3
+          },
+          {
+            "name": "달걀",
+            "percent": 15
+          }
+        ]
+      },
+      {
+        "name": "충전물",
+        "basis": "perPiece",
+        "ingredients": [
+          {
+            "name": "통팥앙금",
+            "gramPerPiece": 40
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "name": "반죽",
+        "minutes": null,
+        "desc": "마가린을 뺀 재료를 섞고, 클린업 단계에서 마가린을 넣어 최종 단계까지 믹싱해요",
+        "tip": "반죽 온도 30℃",
+        "parallel": ""
+      },
+      {
+        "name": "1차 발효",
+        "minutes": 30,
+        "desc": "온도 30℃, 습도 75~80%에서 15~30분",
+        "tip": "",
+        "parallel": "앙금 40g씩 분할해 두기"
+      },
+      {
+        "name": "분할",
+        "minutes": null,
+        "desc": "50g씩 분할해요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "둥글리기",
+        "minutes": null,
+        "desc": "표면이 매끄럽게 둥글려요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "중간 발효",
+        "minutes": 15,
+        "desc": "비닐을 덮어 10~15분",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "성형·팬닝",
+        "minutes": null,
+        "desc": "반죽으로 앙금 40g을 싸서 철판에 놓고, 가운데를 눌러 모양을 내요",
+        "tip": "간격을 넉넉히 두고, 윗면에 달걀물을 발라요",
+        "parallel": ""
+      },
+      {
+        "name": "2차 발효",
+        "minutes": 35,
+        "desc": "온도 35~38℃, 습도 85%에서 30~35분",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "굽기",
+        "minutes": 15,
+        "desc": "윗불 190℃ / 아랫불 150℃ 전후에서 12~15분",
+        "tip": "색이 빨리 나니 마지막 몇 분은 지켜봐요",
+        "parallel": ""
+      }
+    ]
+  },
+  {
+    "id": "bread-03",
+    "type": "실기",
+    "source": "기본",
+    "category": "제빵",
+    "name": "단과자빵(소보로빵)",
+    "examMinutes": 210,
+    "method": "스트레이트법",
+    "thumbnail": "images/items/bread-03.jpg",
+    "photoCredit": {
+      "author": "Ptko",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Soboro-ppang.jpg"
+    },
+    "video": null,
+    "requirements": [
+      "빵 반죽 재료를 계량해 재료별로 진열 (9분)",
+      "스트레이트법으로 제조, 반죽 온도 27℃",
+      "반죽 1개 분할 무게 50g, 토핑용 소보로는 1개당 약 30g",
+      "토핑용 소보로는 배합표대로 직접 만들어 사용",
+      "반죽은 전량 사용해 성형"
+    ],
+    "notes": [
+      "토핑은 1차 발효 시간에 만들어 두면 시간이 남아요",
+      "토핑을 너무 많이 치대면 보슬보슬한 소보로가 안 돼요",
+      "반죽 윗면에 물을 묻혀야 토핑이 잘 붙어요"
+    ],
+    "criteria": [
+      "크기와 모양이 고르다",
+      "토핑이 고르게 붙어 있고 떨어지지 않는다",
+      "껍질 색이 고르다"
+    ],
+    "memo": "큐넷 공개문제를 바탕으로 정리한 값이에요. 공정 시간과 굽기 온도는 교재의 일반 기준이라, 학원 교재·오븐에 맞게 확인해 주세요.",
+    "baseFlourGram": 900,
+    "basePieces": null,
+    "ingredientGroups": [
+      {
+        "name": "반죽",
+        "basis": "percent",
+        "ingredients": [
+          {
+            "name": "강력분",
+            "percent": 100
+          },
+          {
+            "name": "물",
+            "percent": 47
+          },
+          {
+            "name": "이스트",
+            "percent": 4
+          },
+          {
+            "name": "제빵개량제",
+            "percent": 1
+          },
+          {
+            "name": "소금",
+            "percent": 2
+          },
+          {
+            "name": "마가린",
+            "percent": 18
+          },
+          {
+            "name": "탈지분유",
+            "percent": 2
+          },
+          {
+            "name": "달걀",
+            "percent": 15
+          },
+          {
+            "name": "설탕",
+            "percent": 16
+          }
+        ]
+      },
+      {
+        "name": "토핑용 소보로",
+        "basis": "fixed",
+        "ingredients": [
+          {
+            "name": "중력분",
+            "gram": 300
+          },
+          {
+            "name": "설탕",
+            "gram": 180
+          },
+          {
+            "name": "마가린",
+            "gram": 150
+          },
+          {
+            "name": "땅콩버터",
+            "gram": 45
+          },
+          {
+            "name": "달걀",
+            "gram": 30
+          },
+          {
+            "name": "물엿",
+            "gram": 30
+          },
+          {
+            "name": "탈지분유",
+            "gram": 9
+          },
+          {
+            "name": "베이킹파우더",
+            "gram": 6
+          },
+          {
+            "name": "소금",
+            "gram": 3
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "name": "반죽",
+        "minutes": null,
+        "desc": "마가린을 뺀 재료를 섞고, 클린업 단계에서 마가린을 넣어 최종 단계까지 믹싱해요",
+        "tip": "반죽 온도 27℃",
+        "parallel": ""
+      },
+      {
+        "name": "1차 발효",
+        "minutes": 60,
+        "desc": "온도 27℃, 습도 75~80%에서 60~70분",
+        "tip": "",
+        "parallel": "토핑용 소보로 만들기"
+      },
+      {
+        "name": "분할",
+        "minutes": null,
+        "desc": "50g씩 분할해요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "둥글리기",
+        "minutes": null,
+        "desc": "표면이 매끄럽게 둥글려요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "중간 발효",
+        "minutes": 15,
+        "desc": "비닐을 덮어 10~15분",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "성형·팬닝",
+        "minutes": null,
+        "desc": "윗면에 물을 묻혀 토핑 약 30g을 꾹 눌러 묻히고 철판에 놓아요",
+        "tip": "간격을 넉넉히 둬요",
+        "parallel": ""
+      },
+      {
+        "name": "2차 발효",
+        "minutes": 35,
+        "desc": "온도 35~38℃, 습도 85%에서 30~35분",
+        "tip": "토핑이 녹지 않게 습도를 너무 높이지 않아요",
+        "parallel": ""
+      },
+      {
+        "name": "굽기",
+        "minutes": 15,
+        "desc": "윗불 190℃ / 아랫불 160℃ 전후에서 12~15분",
+        "tip": "",
+        "parallel": ""
+      }
+    ]
+  },
+  {
+    "id": "pastry-01",
+    "type": "실기",
+    "source": "기본",
+    "category": "제과",
+    "name": "파운드케이크",
+    "examMinutes": 150,
+    "method": "크림법",
+    "thumbnail": "images/items/pastry-01.jpg",
+    "photoCredit": {
+      "author": "Douglas Paul Perkins",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pound_cake_1.jpg"
+    },
+    "video": null,
+    "requirements": [
+      "배합표의 재료를 계량해 재료별로 진열 (9분)",
+      "크림법으로 제조, 반죽 온도 23℃",
+      "반죽 비중을 측정",
+      "윗면을 터뜨리는 제품으로 제조",
+      "제시한 팬에 알맞게 분할, 반죽은 전량 사용"
+    ],
+    "notes": [
+      "달걀은 조금씩 나눠 넣어야 분리되지 않아요",
+      "비중 0.75~0.85를 맞춰요",
+      "윗면이 막 굳기 시작할 때 칼집을 내요"
+    ],
+    "criteria": [
+      "윗면 터짐이 가운데에 고르게 났다",
+      "부피와 모양이 고르다",
+      "속결이 촘촘하고 고르다"
+    ],
+    "memo": "큐넷 공개문제를 바탕으로 정리한 값이에요. 공정 시간과 굽기 온도는 교재의 일반 기준이라, 학원 교재·오븐에 맞게 확인해 주세요.",
+    "baseFlourGram": 800,
+    "basePieces": null,
+    "ingredientGroups": [
+      {
+        "name": "반죽",
+        "basis": "percent",
+        "ingredients": [
+          {
+            "name": "박력분",
+            "percent": 100
+          },
+          {
+            "name": "설탕",
+            "percent": 80
+          },
+          {
+            "name": "버터",
+            "percent": 80
+          },
+          {
+            "name": "유화제",
+            "percent": 2
+          },
+          {
+            "name": "소금",
+            "percent": 1
+          },
+          {
+            "name": "탈지분유",
+            "percent": 2
+          },
+          {
+            "name": "바닐라향",
+            "percent": 0.5
+          },
+          {
+            "name": "베이킹파우더",
+            "percent": 2
+          },
+          {
+            "name": "달걀",
+            "percent": 80
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "name": "팬 준비",
+        "minutes": null,
+        "desc": "파운드 팬에 종이를 깔아요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "반죽",
+        "minutes": null,
+        "desc": "버터를 풀고 설탕·소금·유화제를 넣어 크림 상태로 만든 뒤, 달걀을 나눠 넣고 가루를 섞어요",
+        "tip": "반죽 온도 23℃, 비중 0.75~0.85",
+        "parallel": ""
+      },
+      {
+        "name": "비중 측정·팬닝",
+        "minutes": null,
+        "desc": "비중을 재고 팬 4개에 같은 양씩 나눠 담아 윗면을 고르게 해요",
+        "tip": "가운데를 살짝 낮게 펴요",
+        "parallel": ""
+      },
+      {
+        "name": "굽기 1",
+        "minutes": 10,
+        "desc": "윗면에 껍질이 막 생길 때까지 구워요",
+        "tip": "",
+        "parallel": "칼에 기름 묻혀 두기"
+      },
+      {
+        "name": "윗면 자르기",
+        "minutes": null,
+        "desc": "오븐에서 꺼내 윗면 가운데에 칼집을 내요",
+        "tip": "빨리 하고 다시 넣어요",
+        "parallel": ""
+      },
+      {
+        "name": "굽기 2",
+        "minutes": 40,
+        "desc": "윗불 180℃ / 아랫불 170℃ 전후에서 마저 구워요",
+        "tip": "꼬챙이를 찔러 묻어나지 않으면 완료",
+        "parallel": ""
+      }
+    ]
+  },
+  {
+    "id": "pastry-02",
+    "type": "실기",
+    "source": "기본",
+    "category": "제과",
+    "name": "마들렌",
+    "examMinutes": 110,
+    "method": "1단계법(변형)",
+    "thumbnail": "images/items/pastry-02.jpg",
+    "photoCredit": {
+      "author": "Bernard Leprêtre",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "source": "https://commons.wikimedia.org/wiki/File:Madeleines_de_Commercy.jpg"
+    },
+    "video": null,
+    "requirements": [
+      "배합표의 재료를 계량해 재료별로 진열 (7분)",
+      "수작업으로 제조",
+      "버터를 녹여서 넣는 1단계법(변형), 반죽 온도 24℃",
+      "실온에서 휴지",
+      "제시된 팬에 알맞은 반죽량을 넣고, 반죽은 전량 사용"
+    ],
+    "notes": [
+      "녹인 버터가 너무 뜨거우면 반죽이 묽어져요",
+      "팬에 버터를 바르고 밀가루를 털어 둬야 잘 빠져요",
+      "팬의 80% 정도만 채워요"
+    ],
+    "criteria": [
+      "배꼽(가운데 볼록 부분)이 고르게 올라왔다",
+      "크기와 색이 고르다",
+      "팬 모양 무늬가 선명하다"
+    ],
+    "memo": "큐넷 공개문제를 바탕으로 정리한 값이에요. 공정 시간과 굽기 온도는 교재의 일반 기준이라, 학원 교재·오븐에 맞게 확인해 주세요.",
+    "baseFlourGram": 400,
+    "basePieces": null,
+    "ingredientGroups": [
+      {
+        "name": "반죽",
+        "basis": "percent",
+        "ingredients": [
+          {
+            "name": "박력분",
+            "percent": 100
+          },
+          {
+            "name": "베이킹파우더",
+            "percent": 2
+          },
+          {
+            "name": "설탕",
+            "percent": 100
+          },
+          {
+            "name": "달걀",
+            "percent": 100
+          },
+          {
+            "name": "레몬껍질",
+            "percent": 1
+          },
+          {
+            "name": "소금",
+            "percent": 0.5
+          },
+          {
+            "name": "버터",
+            "percent": 100
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "name": "버터 녹이기",
+        "minutes": null,
+        "desc": "버터를 중탕으로 녹여요",
+        "tip": "너무 뜨겁지 않게 식혀서 써요",
+        "parallel": "팬에 버터 바르고 밀가루 털기"
+      },
+      {
+        "name": "반죽",
+        "minutes": null,
+        "desc": "가루와 설탕을 체 쳐 섞고 달걀을 넣어 섞은 뒤, 레몬껍질과 녹인 버터를 넣어요",
+        "tip": "반죽 온도 24℃, 수작업",
+        "parallel": ""
+      },
+      {
+        "name": "휴지",
+        "minutes": 30,
+        "desc": "비닐을 덮어 실온에서 쉬게 해요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "팬닝",
+        "minutes": null,
+        "desc": "짤주머니로 팬의 80% 정도까지 짜 넣어요",
+        "tip": "",
+        "parallel": ""
+      },
+      {
+        "name": "굽기",
+        "minutes": 12,
+        "desc": "윗불 190℃ / 아랫불 160℃ 전후에서 10~15분",
+        "tip": "굽고 나면 바로 팬에서 빼요",
+        "parallel": ""
+      }
+    ]
+  }
+]
